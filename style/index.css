@@ -1,0 +1,55 @@
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+
+}
+.outer-box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    width: 90vw;
+    height: 60vw;
+}
+
+.inner-box1 { 
+     background-color: pink;
+     padding: 20px;
+     display: flex;
+     gap: 10px;
+     align-items: flex-end;
+}
+.box1 {
+    background-color: rgb(220, 29, 93);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+.inner-box2 { 
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    background-color: rgb(220, 29, 93);
+    width: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
