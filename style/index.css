@@ -31,14 +31,14 @@ body {
     display: flex;
 }
 .inner-box1 { 
-     gap: 30px;
+     gap: 40px;
      align-items: flex-end;    
 }
 .box1 {
     border: 1px solid black;
 }
 .inner-box2 { 
-    gap: 20px;
+    gap: 30px;
     align-items: center;
     justify-content: center;
 }
@@ -61,7 +61,7 @@ body {
     align-self: flex-end;
 }
 .inner-box5 { 
-    gap: 4rem;
+    gap: 5rem;
     align-items: center;
     justify-content: center;
 }
@@ -75,7 +75,7 @@ body {
 }
 .box5a {
     width: 150px;
-    height: 120px;
+    height: 100px;
     justify-content: center;
     color: white;
     font-size: 15px;
