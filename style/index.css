@@ -1,179 +1,182 @@
 
 body {
-    background-color: blueviolet;
+    background-color: #05406e;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
-    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .outer-box {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
     width: 90vw;
-    height: 60vw;
+    height: 50vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .inner-box1 { 
-     background-color: pink;
+     background-color: #14c4b2;
      padding: 20px;
      display: flex;
      gap: 20px;
      align-items: flex-end;
+     border-radius: 3%;
 }
 .box1 {
-    background-color: rgb(220, 29, 93);
-    width: 80px;
-    height: 80px;
+    background-color: #1ddc40;
+    width: 150px;
+    height: 150px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 12px;
+    border-radius: 4%;
+    border: 1px solid black;
 }
 .inner-box2 { 
-    background-color: pink;
+    background-color: #14c4b2;
     padding: 20px;
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: center;
+    border-radius: 3%;
+
 }
 
 .box2 {
-    background-color: rgb(220, 29, 93);
-    width: 80px;
+    background-color: #1ddc40;
+    width: 150px;
     height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 12px;
+    border-radius: 4%;
 }
 .inner-box3 { 
-    background-color: pink;
+    background-color: #14c4b2;
     padding: 20px;
     display: flex;
     gap: 10px;
     align-items: center;
     justify-content: flex-end;
+    border-radius: 3%;
 }
 .box3 {
-    background-color: rgb(220, 29, 93);
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 12px;
+    background-color: #1ddc40;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 4%;
 }
 .inner-box4 { 
-    background-color: pink;
+    background-color: #14c4b2;
     padding: 20px;
     display: flex;
     gap: 10px;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 6rem;
+    border-radius: 3%;
 }
 .box4 {
-    background-color: rgb(220, 29, 93);
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 12px;
+    background-color: #1ddc40;
+    width: 150px;
+    height: 150px;
+    border-radius: 4%;
 }
 .box4c {
     margin-left: auto;
     align-self: flex-end;
-    background-color: rgb(220, 29, 93);
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 12px;
+    background-color: #1ddc40;
+    width: 150px;
+    height: 150px;
+    border-radius: 4%;
 }
 
 .inner-box5 { 
-    background-color: pink;
+    background-color: #14c4b2;
     padding: 20px;
     display: flex;
     gap: 4rem;
     align-items: center;
     justify-content: center;
+    border-radius: 3%;
 }
 .box5a {
-    background-color: rgb(220, 29, 93);
-    width: 80px;
+    background-color: #1ddc40;
+    width: 150px;
     height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 12px;
+    border-radius: 4%;
+    border: 1px solid black;
 }
 .box5b {
-        background-color: rgb(220, 29, 93);
-        width: 80px;
-        height: 70px;
+        background-color: #1ddc40;
+        width: 150px;
+        height: 120px;
         display: flex;
         justify-content: center;
         color: white;
         font-size: 12px;
+        padding-top: 10px;
+        border-radius: 4%;
+        border: 1px solid black;
 }
 .box5c {
-    background-color: rgb(220, 29, 93);
-    width: 80px;
+    background-color: #1ddc40;
+    width: 150px;
     height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 12px;
+    border-radius: 4%;
+    border: 1px solid black;
 }
 .inner-box6 { 
-    background-color: pink;
+    background-color: #14c4b2;
     padding: 20px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
     justify-content: center;
+    border-radius: 3%;
 }
 
 .box6a {
-    background-color: rgb(220, 29, 93);
-    width: 80px;
-    height: 80px;
+    background-color: #1ddc40;
+    width: 150px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 12px;
+    border-radius: 4%;
 }
 .box6b {
-    background-color: rgb(220, 29, 93);
-    width: 200px;
-    height: 80px;
+    background-color: #1ddc40;
+    width: 300px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 12px;
+    border-radius: 4%;
 }
 .box6c {
-        background-color: rgb(220, 29, 93);
-        width: 80px;
-        height: 80px;
+        background-color: #1ddc40;
+        width: 150px;
+        height: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
         color: white;
         font-size: 12px;
+        border-radius: 4%;
 }
